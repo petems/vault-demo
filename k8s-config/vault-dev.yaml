@@ -24,7 +24,7 @@ metadata:
 spec:
   containers:
   - name: vault
-    image: vault:0.7.3
+    image: vault:1.4.3
     args:
       - "server"
       - "-dev"
