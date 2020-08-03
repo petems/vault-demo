@@ -11,18 +11,18 @@ https://docs.google.com/presentation/d/1x0FbDpy-udIWgZojkpYYxXGRw5E7VXK7BicbbfGQ
 ## Getting started
 
 * Run: 
-  * startServices.sh
+  * check minikube is running: `minikube status`
+  * ./startServices.sh
     * Wait for all services to be started (vault takes a little longer) 
-  * configurationConsul.sh
-  * configurationVault.sh
-  * startDemoPod.sh 
-
+  * ./configureConsul.sh
+  * ./configureVault.sh
+  * ./startDemoPod.sh 
 
 ## Starting another pod
-* startAnotherDemoPod.sh
+* ./startAnotherDemoPod.sh
 
 ## Show current mysql users
-* listMysqlUsers.sh
+* ./listMysqlUsers.sh
 
 ## Consul URL
 * echo http://`minikube ip`:30500
